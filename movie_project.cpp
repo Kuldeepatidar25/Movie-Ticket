@@ -231,7 +231,7 @@ class dcll
 		} while (ch == '2');
 	}
 
-	void cancle()
+	void cancel()
 	{
 		char row, ch;
 		int seat, pin;
@@ -359,7 +359,7 @@ int main()
 				o.display();
 				break;
 			case 2:
-				o.cancle();
+				o.cancel();
 				o.display();
 				break;
 		}
